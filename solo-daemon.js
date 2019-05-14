@@ -38,10 +38,10 @@ var asynchronousHelpers = [];
 
 // --- VARS ---
 // in debug mode, the targeting loop will always go for foodnstuff, the saddest little server
-var isDebugMode = false;
+var isDebugMode = true;
 
 // the server to use if we're in debug mode
-var debugServer = 'omega-net';
+var debugServer = 'foodnstuff';
 
 // complex arrays of servers with relevant properties, one is sorted for ram available, the other is for money
 var serverListRam = [];
